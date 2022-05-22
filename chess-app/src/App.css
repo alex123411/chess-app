@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  
+}
+
+.container{
+  background-color: #262421;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.board{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  width: auto;
+  height: auto;
+}
+
+.cell{
+  height: 50px;
+  width: 50px;
+}
+
+.black{
+  background: #000;
+}
+
+.white{
+  background: white;
+}
+
