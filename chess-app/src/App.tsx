@@ -1,16 +1,9 @@
 import React from 'react';
 import './App.css';
-import { Board } from './components/board';
-
-
-function App() {
-  const board = new Board();
+import  Main  from './components/main';
+const App: React.FC = () => {
   return (
-    <div className='container'>
-      <div className='board'>
-        {board.getBoard()}
-      </div>
-    </div>
+    <Main></Main>
   );
 }
 
